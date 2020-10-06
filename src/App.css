@@ -1,38 +1,30 @@
-.App {
+body{
+  background-color: #7a6c5d;
+}
+.header{
   text-align: center;
+  background-color: #2a3d45;
+  height: 255px;
+  margin-top: -21px;
+  line-height: 2;
+  color: antiquewhite;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.header img{
+  height: 100px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.odometerContainer{
+  text-align: center;
+  /* background-color: #7a6c5d; */
+
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.odometerContainer p{
+  font-size: 90px;
+  font-weight: 900;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Footer{
+  text-align: center;
 }
